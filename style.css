@@ -112,7 +112,7 @@ nav {
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 22px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #D0F9D4;
 }
@@ -215,7 +215,7 @@ nav {
     font-size: 13px;
     font-weight: bold;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 /* trusted logos */
@@ -232,7 +232,7 @@ nav {
     padding-left: 150px;
     padding-right: 150px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 80px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -267,7 +267,7 @@ nav {
     width: 100%;
     display: flex;
     gap: 70px;
-    margin-top: 50px;
+    margin-top: 80px;
 
 }
 
@@ -400,7 +400,7 @@ nav {
 /* our works container working */
 .our-works{
     width: 100%;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 .our-work-header{
     width: 82%;
