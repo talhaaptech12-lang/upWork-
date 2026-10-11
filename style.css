@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Allison&family=Dancing+Script:wght@400..700&family=Love+Ya+Like+A+Sister&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Allison&family=Dancing+Script:wght@400..700&family=Love+Ya+Like+A+Sister&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+
+}
+
+.nav-links {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.nav-links>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links>ul>li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+#logo {
+    font-family: "Aclonica", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-search {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.nav-search>input {
+    width: 220px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 35px;
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid grey;
+
+
+}
+
+.nav-search>i {
+    position: absolute;
+    color: grey;
+    top: 4%;
+    left: 70.5%;
+}
+
+.nav-search>.login {
+    height: 40px;
+    width: 90px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+}
+
+.login:hover {
+    background-color: green;
+    color: white;
+}
+
+.nav-search>.signup {
+    height: 40px;
+    width: 90px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+/*  hero section */
+.hero-section {
+    width: 100%;
+    padding: 0px 150px 0px 150px;
+    /* height: 100vh; */
+
+}
+
+.hero-header {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 22px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D0F9D4;
+}
+
+.hero-header>a {
+    color: black;
+}
+
+.hero-img {
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+
+.hero-img>img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.img-description {
+    height: 60vh;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    color: white;
+
+}
+
+.img-description>h1 {
+    font-size: 65px;
+}
+
+.img-description>h2 {
+    font-size: 25px;
+}
+
+.img-description>button {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.img-description-btn {
+    width: 35%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #65635ec0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+.hire-btn {
+    height: 35px;
+    margin-left: 4px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #181818;
+}
+
+.work-btn {
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.work-btn:hover {
+    background-color: grey;
+}
+
+/* trusted logo text */
+#trusted-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* trusted logos */
+.trusted-logo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+/* Freelancer box */
+.find-freelancers-box {
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 100%;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.services-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services-card {
+    width: 220px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.services-card>i {
+    color: #32B422;
+    font-size: 30px;
+}
+
+.services-card>p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* ai project scoping woking */
+.quiz-container {
+    width: 100%;
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+
+}
+
+.quiz-section {
+    width: 30%;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz-section > h1{
+    font-size: 50px;
+}
+
+.quiz-section>p {
+    color: grey;
+}
+
+.quiz-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.quiz-header>i {
+    color: green;
+    font-size: 20px;
+}
+
+.quiz-header>h2 {
+    color: #2A2A2A;
+    font-family: "Roboto", sans-serif;
+}
+
+.quiz-card {
+    width: 47%;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.quiz-card-header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.quiz-card-header>.quiz-card-heading {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.quiz-card-header>.quiz-card-heading>p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.quiz-card-right-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quiz-card-right-header>p {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quiz-progress-segment {
+    display: flex;
+    gap: 10px;
+    width: 150px;
+}
+
+.quiz-progress-segment>.one {
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #108A00;
+}
+
+.quiz-progress-segment>.two {
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+.quiz-progress-segment>.three {
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+}
+.Quiz-card-options{
+    width: 90%;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Quiz-card-options > button{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+.Quiz-card-options > button:hover{
+    border: 1px solid grey;
+}
+.Quiz-card-options > button> i{
+    color: #108A00;
+    font-size: 25px;
+}
+
+/* our works container working */
+.our-works{
+    width: 100%;
+    margin-top: 40px;
+}
+.our-work-header{
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:140px;
+    margin-right: 200px;
+    
+}
+.our-work-header> p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.our-works-header-btn{
+    width: 24%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid grey;
+}
+
+.hiring-btn {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 2px solid black;
+    font-weight: bold;
+    color: grey;
+    background-color: white;
+}
+
+.finding-btn {
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    background-color: white;
+}
+
+.work-cards-container{
+    width: 82%;
+    margin-left: 135px;
+    margin-right: 135px;
+    display: flex;
+    gap: 60px;
+}
+.work-card{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.work-card>img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.work-card>p{
+    color: grey;
+}
+.work-card > button{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #108A00;
+    color: white;
+    font-size: 15px;
+}
+.cost-calculator-container{
+    border: 1px solid black;
+    width: 82%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 130px;
+    padding: 10px;
+    display: flex;
+    background-color: #181818;
+
+}
+.cost-calculator-left{
+    width: 50%;
+    height: 500px;
+    position: relative;
+
+}
+.cost-calculator-left > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+}
+.cost-calculator-img-text{
+    width: 90%;
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+
+}
+.cost-calculator-img-text>h1{
+    font-size: 50px ;
+}
+.cost-calculator-img-text> textarea{
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    color: grey;
+}
+.right-cost-calculator {
+    width: 50%;
+    height: 500px;
+}
+.right-cost-calculator > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
